@@ -1,0 +1,29 @@
+/* Quitamos el estilo por defecto del navegador */
+input[type="range"] {
+  -webkit-appearance: none;
+  width: 200px;
+  height: 6px;
+  background: #be86be;
+  border-radius: 5px;
+  outline: none;
+}
+
+/* Chrome, Edge, Safari */
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 16px;
+  height: 16px;
+  background: purple;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* Firefox */
+input[type="range"]::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  background: purple;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
